@@ -14,7 +14,7 @@ else {
 
 <html>
 <head>
-	<title>Welcome to Slotify!</title>
+	<title>Welcome to Our Food Network Portal!</title>
 </head>
 
 <body>
