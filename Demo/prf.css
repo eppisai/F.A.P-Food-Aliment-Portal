@@ -192,7 +192,7 @@ body{
 }
 #contr input{
     position: relative;
-    top: 15px;
+    top: 12px;
     height: 5vh;
     width: 12vw;
     border: none;
@@ -205,3 +205,26 @@ body{
 #contr input::placeholder{
     color: rgb(10, 243, 243);
 }
+#trk{
+    position: relative;
+    top: 7vh;
+    height: 5vh;
+    width: 88%;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #008CBA;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+#trk:hover{
+    border: 2px solid  white;
+    color: white;
+    background-color:  #008CBA;
+}
+
