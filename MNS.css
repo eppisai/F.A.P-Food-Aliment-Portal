@@ -1,0 +1,35 @@
+body{
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+}
+
+#two{
+	margin-top: 15px;
+	width: 100%;
+}
+.three{
+	text-align: center;
+	font-size: 45px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.jumbotron{
+	box-shadow: 2px 2px 6px grey;
+	border-radius: 10px;
+}
+img {
+	position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  margin-left: -70px;
+
+}
+#yo tr td input{
+	height: 25px;
+}
+.four{
+	font-size: 30px;
+}
