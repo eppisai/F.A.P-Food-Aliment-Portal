@@ -1,8 +1,10 @@
-html
+
 body{
     padding: 0%;
     margin: 0%;
 }
+
+
 #packet{
     margin: 0;
     padding: 5%;
@@ -13,18 +15,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/165/226/large_2x/hayride-goes-to-the-farm-free-vector.jpg);
-
 }
+
+
 #bubble_1{
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     left: 6%;
     top: 15%;
     border-radius: 100px;
     box-shadow: 5px 5px 15px rgb(63, 63, 63);
     background-color:  rgb(29, 121, 105);
 }
+
+
 #bubble_2{
     position: absolute;
     height: 180px;
@@ -35,30 +40,38 @@ body{
     box-shadow: 5px 5px 15px rgb(63, 63, 63);
     background-color:  rgb(29, 121, 105); 
 }
+
+
 #bubble_3{
     position: absolute;
-    height: 140px;
-    width: 140px;
+    height: 120px;
+    width: 120px;
     left: 10%;
     top: 68%;
     border-radius: 70px;
     box-shadow: 5px 5px 15px rgb(63, 63, 63);
     background-color:  rgb(29, 121, 105);
 }
+
+
 #bubble_3 h2{
     font-size: 35px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: white;
     text-align: center;
     font-family: sans-serif;
 }
+
+
 #bubble_1 h2{
-    font-size: 70px;
+    font-size: 75px;
     color: white;
     text-align: center;
     font-family: sans-serif;
     
 }
+
+
 #bubble_2 h2{
     font-size: 50px;
     text-align: center;
@@ -66,6 +79,8 @@ body{
     color: white;
     font-family: sans-serif;
 }
+
+
 #wrttn{
     position: absolute;
     left: 60%;
@@ -76,30 +91,38 @@ body{
     background-size: cover;
     border-radius: 20px;
 }
+
+
 #wrttn ul{
     padding: 0%;
 }
+
+
 #wrttn h1{
     font-size: 75px;
     font-family: sans-serif;    
     text-align: center;
     text-shadow: 0px 3px 6px rgb(93, 94, 92);
     color: rgb(0, 119, 255);
-    
 }
+
+
 #wrttn ul li{
     font-size: 30px;
     list-style-type: none;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: rgb(255, 238, 0);
-
 }
+
+
 #wrttn hr{
     width: 180px;
     color: white;
     text-align: center;
 }
+
+
 #logn{
     width: 120px;
     height: 40px;
@@ -118,12 +141,16 @@ body{
     cursor: pointer;
     box-shadow: 10px 10px 25px rgb(63, 63, 63);
 }
+
+
 #logn h3{
     margin: 0%;
     padding: 0%;
     position: relative;
     font-family: sans-serif;
 }
+
+
 #sign{
     width: 120px;
     height: 40px;
@@ -143,12 +170,16 @@ body{
     box-shadow: 10px 10px 25px rgb(63, 63, 63);
 
 }
+
+
 #sign h3{
     margin: 0%;
     padding: 0%;
     position: relative;
     font-family: sans-serif;
-} 
+}
+
+ 
 #logn :hover{
     width: 120px;
     height: 40px;
@@ -165,6 +196,8 @@ body{
     cursor: pointer;
     box-shadow: 10px 10px 15px rgb(63, 63, 63);
 }
+
+
 #sign :hover{
     width: 120px;
     height: 40px;
@@ -181,35 +214,49 @@ body{
     cursor: pointer;
     box-shadow: 10px 10px 15px rgb(63, 63, 63);
 }
+
+
 #empty{
     width: 100%;
     height: 20px;
     background-color: greenyellow;
 }
+
+
 #divider{
     width: 50%;
     text-align: center;
 }
+
+
 #p1{
     font-family: 'PT Sans', sans-serif;
     font-style: italic;
     font-size: 30px;
 }
+
+
 #p2{
     font-family: 'PT Sans', sans-serif;
     font-style: italic;
     font-size: 30px;
 }
+
+
 #p3{
     font-family: 'PT Sans', sans-serif;
     font-style: italic;
     font-size: 30px;
 }
+
+
 #farsm{
     border-radius: 200px;
     position: relative;
     left: 30%;
 }
+
+
 #uppero{
     position: absolute;
     width: 100%;
@@ -218,25 +265,35 @@ body{
     box-sizing: border-box;
 
 }
+
+
 #farmwrk{
     border-radius: 200px;
     position: relative;
     left: 31%;
 }
+
+
 #logup{
     border-radius: 200px;
     position: relative;
     left: 31%;
 }
+
+
 #pro{
     background-color: rgb(61, 61, 61);
     font-size: 30px;
     font-family: sans-serif;
     height: 480px;
 }
+
+
 #look{
     color: white;
 }
+
+
 .took{
     color: rgba(0, 204, 255, 0.979);
     cursor: pointer;
