@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <title>Using MySQL and PHP with Google Maps</title>
+    <title>Storage Hubs</title>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -24,19 +24,24 @@
     <div id="map"></div>
 
     <script>
+
+
+
       var customLabel = {
         restaurant: {
-          label: 'R'
+          label: 'S'
         },
         bar: {
-          label: 'B'
+          label: 'S'
         }
       };
 
+
+
         function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(20.593683, 78.962883),
-          zoom: 5
+          center: new google.maps.LatLng(23.593683, 78.962883),
+          zoom: 4.8
         });
         var infoWindow = new google.maps.InfoWindow;
 
