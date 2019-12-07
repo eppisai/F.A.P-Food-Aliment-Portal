@@ -1,0 +1,391 @@
+{
+    "authenticationResultCode": "ValidCredentials",
+    "brandLogoUri": "http:\/\/veplat2.maps.live-int.com\/Branding\/logo_powered_by.png",
+    "copyright": "Copyright © 2017 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+    "resourceSets": [{
+        "estimatedTotal": 1,
+        "resources": [{
+            "__type": "Route:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",
+            "bbox": [40.41682, -80.01989, 40.43807, -79.99351],
+            "distanceUnit": "Mile",
+            "durationUnit": "Second",
+            "routeLegs": [{
+                "actualEnd": {
+                    "type": "Point",
+                    "coordinates": [40.438033, -79.99351]
+                },
+                "actualStart": {
+                    "type": "Point",
+                    "coordinates": [40.416981, -80.018574]
+                },
+                "alternateVias": [],
+                "cost": 0,
+                "description": "US-19 TRUCK, PJ McArdle Roadway",
+                "endLocation": {
+                    "bbox": [40.433687, -80.000376, 40.441413, -79.986844],
+                    "name": "600 Forbes Ave, Pittsburgh, PA 15219",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [40.43755, -79.99361]
+                    },
+                    "address": {
+                        "addressLine": "600 Forbes Ave",
+                        "adminDistrict": "PA",
+                        "adminDistrict2": "Allegheny",
+                        "countryRegion": "United States",
+                        "formattedAddress": "600 Forbes Ave, Pittsburgh, PA 15219",
+                        "locality": "Pittsburgh",
+                        "postalCode": "15219"
+                    },
+                    "confidence": "High",
+                    "entityType": "Address",
+                    "geocodePoints": [{
+                        "type": "Point",
+                        "coordinates": [40.43755, -79.99361],
+                        "calculationMethod": "Rooftop",
+                        "usageTypes": ["Display"]
+                    }, {
+                        "type": "Point",
+                        "coordinates": [40.438033, -79.99351],
+                        "calculationMethod": "Rooftop",
+                        "usageTypes": ["Route"]
+                    }],
+                    "matchCodes": ["Good"]
+                },
+                "itineraryItems": [{
+                    "compassDirection": "east",
+                    "details": [{
+                        "compassDegrees": 96,
+                        "endPathIndices": [2],
+                        "maneuverType": "DepartStart",
+                        "mode": "Driving",
+                        "names": ["Crane Ave"],
+                        "roadType": "Arterial",
+                        "startPathIndices": [0]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "DepartStart",
+                        "text": "Depart Crane Ave toward US-19 TRUCK \/ PA-51 \/ Saw Mill Run Blvd"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.416981, -80.018574]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "towardsRoadName": "US-19 TRUCK \/ PA-51 \/ Saw Mill Run Blvd",
+                    "travelDistance": 0.214373,
+                    "travelDuration": 38,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "north",
+                    "details": [{
+                        "compassDegrees": 341,
+                        "endPathIndices": [8],
+                        "locationCodes": ["104-04700"],
+                        "maneuverType": "TurnLeft",
+                        "mode": "Driving",
+                        "names": ["Saw Mill Run Blvd"],
+                        "roadShieldRequestParameters": {
+                            "bucket": 656023,
+                            "shields": [{
+                                "labels": ["19"],
+                                "roadShieldType": 2
+                            }]
+                        },
+                        "roadType": "MajorRoad",
+                        "startPathIndices": [2]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "TurnLeft",
+                        "text": "Turn left onto US-19 TRUCK \/ PA-51 \/ Saw Mill Run Blvd"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.41703, -80.01453]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "travelDistance": 0.691586,
+                    "travelDuration": 86,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "east",
+                    "details": [{
+                        "compassDegrees": 77,
+                        "endPathIndices": [13],
+                        "maneuverType": "TurnRight",
+                        "mode": "Driving",
+                        "names": ["Woodruff St"],
+                        "roadType": "Arterial",
+                        "startPathIndices": [8]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "TurnRight",
+                        "text": "Turn right onto Woodruff St"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.42583, -80.01989]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "travelDistance": 0.455465,
+                    "travelDuration": 76,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "north",
+                    "details": [{
+                        "endPathIndices": [17],
+                        "maneuverType": "TurnLeft",
+                        "mode": "Driving",
+                        "names": ["Merrimac St"],
+                        "roadType": "Arterial",
+                        "startPathIndices": [13]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "TurnLeft",
+                        "text": "Turn left onto Merrimac St"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.4302, -80.01371]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "travelDistance": 0.359774,
+                    "travelDuration": 99,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "northeast",
+                    "details": [{
+                        "compassDegrees": 41,
+                        "endPathIndices": [24],
+                        "maneuverType": "RoadNameChange",
+                        "mode": "Driving",
+                        "names": ["PJ McArdle Roadway"],
+                        "roadType": "Arterial",
+                        "startPathIndices": [17]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "RoadNameChange",
+                        "text": "Road name changes to PJ McArdle Roadway"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.43536, -80.0129]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "travelDistance": 0.853764,
+                    "travelDuration": 95,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "northeast",
+                    "details": [{
+                        "compassDegrees": 37,
+                        "endPathIndices": [26],
+                        "locationCodes": ["104N04720", "104-04720"],
+                        "maneuverType": "TurnLeft",
+                        "mode": "Driving",
+                        "names": ["Liberty Bridge"],
+                        "roadType": "MajorRoad",
+                        "startPathIndices": [24]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "TurnLeft",
+                        "text": "Turn left onto Liberty Bridge"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.4292, -79.9993]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "travelDistance": 0.397056,
+                    "travelDuration": 82,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "northeast",
+                    "details": [{
+                        "compassDegrees": 34,
+                        "endPathIndices": [28],
+                        "locationCodes": ["104N04721"],
+                        "maneuverType": "KeepStraight",
+                        "mode": "Driving",
+                        "names": ["Crosstown Blvd"],
+                        "roadType": "MajorRoad",
+                        "startPathIndices": [26]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "KeepStraight",
+                        "text": "Keep straight onto Crosstown Blvd"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.43427, -79.99574]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "signs": ["6th Ave", "Forbes Ave", "I-579 North"],
+                    "travelDistance": 0.14043,
+                    "travelDuration": 15,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "north",
+                    "details": [{
+                        "compassDegrees": 7,
+                        "endPathIndices": [30],
+                        "maneuverType": "TakeRampLeft",
+                        "mode": "Driving",
+                        "names": [],
+                        "roadType": "Ramp",
+                        "startPathIndices": [28]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "TakeRampLeft",
+                        "text": "Take ramp left toward 6th Ave \/ Forbes Ave"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.43607, -79.99451]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "signs": ["6th Ave", "Forbes Ave"],
+                    "travelDistance": 0.138566,
+                    "travelDuration": 30,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "east",
+                    "details": [{
+                        "compassDegrees": 85,
+                        "endPathIndices": [34],
+                        "locationCodes": ["104-09110"],
+                        "maneuverType": "TurnRight",
+                        "mode": "Driving",
+                        "names": ["Forbes Ave"],
+                        "roadType": "Arterial",
+                        "startPathIndices": [30]
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "TurnRight",
+                        "text": "Turn right onto Forbes Ave"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.43805, -79.99415]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "travelDistance": 0.033554,
+                    "travelDuration": 12,
+                    "travelMode": "Driving"
+                }, {
+                    "compassDirection": "east",
+                    "details": [{
+                        "compassDegrees": 96,
+                        "endPathIndices": [34],
+                        "locationCodes": ["104-09110"],
+                        "maneuverType": "ArriveFinish",
+                        "mode": "Driving",
+                        "names": ["Forbes Ave"],
+                        "roadType": "Arterial",
+                        "startPathIndices": [34]
+                    }],
+                    "hints": [{
+                        "hintType": "PreviousIntersection",
+                        "text": "The last intersection is Shingiss St"
+                    }, {
+                        "hintType": "NextIntersection",
+                        "text": "If you reach Boyd St, you've gone too far"
+                    }],
+                    "iconType": "Auto",
+                    "instruction": {
+                        "formattedText": null,
+                        "maneuverType": "ArriveFinish",
+                        "text": "Arrive at Stop: Y, X = 40.438033, -79.99351"
+                    },
+                    "maneuverPoint": {
+                        "type": "Point",
+                        "coordinates": [40.438033, -79.99351]
+                    },
+                    "sideOfStreet": "Unknown",
+                    "travelDistance": 0,
+                    "travelDuration": 0,
+                    "travelMode": "Driving"
+                }],
+                "routeSubLegs": [{
+                    "endWaypoint": {
+                        "type": "Point",
+                        "coordinates": [40.438033, -79.99351],
+                        "description": "Stop: Y, X = 40.438033, -79.99351",
+                        "isVia": false,
+                        "locationIdentifier": "",
+                        "routePathIndex": 34
+                    },
+                    "startWaypoint": {
+                        "type": "Point",
+                        "coordinates": [40.416981, -80.018574],
+                        "description": "Stop: Y, X = 40.416981, -80.018574",
+                        "isVia": false,
+                        "locationIdentifier": "",
+                        "routePathIndex": 0
+                    },
+                    "travelDistance": 3.284568,
+                    "travelDuration": 536
+                }],
+                "startLocation": {
+                    "bbox": [40.415365, -80.024903, 40.423091, -80.011373],
+                    "name": "590 Crane Ave, Pittsburgh, PA 15216",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [40.419228, -80.018138]
+                    },
+                    "address": {
+                        "addressLine": "590 Crane Ave",
+                        "adminDistrict": "PA",
+                        "adminDistrict2": "Allegheny",
+                        "countryRegion": "United States",
+                        "formattedAddress": "590 Crane Ave, Pittsburgh, PA 15216",
+                        "locality": "Pittsburgh",
+                        "postalCode": "15216"
+                    },
+                    "confidence": "High",
+                    "entityType": "Address",
+                    "geocodePoints": [{
+                        "type": "Point",
+                        "coordinates": [40.419228, -80.018138],
+                        "calculationMethod": "Rooftop",
+                        "usageTypes": ["Display"]
+                    }, {
+                        "type": "Point",
+                        "coordinates": [40.416981, -80.018574],
+                        "calculationMethod": "Rooftop",
+                        "usageTypes": ["Route"]
+                    }],
+                    "matchCodes": ["Good"]
+                },
+                "travelDistance": 3.284568,
+                "travelDuration": 536
+            }],
+            "trafficCongestion": "Unknown",
+            "trafficDataUsed": "None",
+            "travelDistance": 3.284568,
+            "travelDuration": 536,
+            "travelDurationTraffic": 765
+        }]
+    }],
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "traceId": "29597209e24e4135b256baebd8488617|EAP8083228|7.7.0.0|"
+}
